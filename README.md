@@ -18,7 +18,7 @@
 4. Enter the command `git commit -m '<message>'` This commits the current changes to your local repository.
 5. Enter the command `git push origin master` This pushes your local repository to your online repository.
 
-![Terminal](images/git-finished-painted.PNG)
+![Terminal](images/git-finished-painted.png)
 
 <hr>
 <h3 align = 'center'>Updating an existing repository</h3>
