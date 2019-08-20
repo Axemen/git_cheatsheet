@@ -27,4 +27,30 @@
 2. `git commit -m '<message>'` This commits the current changes to your local repository.
 3. `git push origin master` This pushes your local repository to your online repository.
 
-[logo]: images/git-finished-painted.png "Logo Title Text 2"
+<hr>
+
+<h3 align = 'center'> Common Errors</h3>
+
+![GitBash](images/no-tracking-info.PNG)
+
+* <h4>No tracking info</h4> 
+    1. Fix: Use `git pull origin master` instead.
+
+![GitBash](images/git-repo-in-repo.PNG)
+
+* <h4>You created a git repository inside of your current repository</h4>
+
+    1. Navigate to the child git directory (to find it check folders and see if you can use the command `cd .git`)
+
+    2. Use the command `rm -r .git -f` to un-initialize the inner repository
+
+    3. Add, Commit, Push as usual
+
+![GitBash](images/updates-rejected.PNG)
+
+* <h4>Updates were rejected</h4>
+
+    1. `git pull origin master`
+    2. Fix any merges if they appear
+    3. `git push origin master`
+
