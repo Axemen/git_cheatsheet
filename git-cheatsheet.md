@@ -54,3 +54,7 @@
     2. Fix any merges if they appear
     3. `git push origin master`
 
+* <h4>I can't pull the class repository</h4>
+
+    1. `git reset --hard`
+    2. `git pull origin master`
